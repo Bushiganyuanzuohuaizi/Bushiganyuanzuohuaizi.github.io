@@ -1,13 +1,13 @@
-site_name: Bushiganyuanzuohuaizi
+site_name: 不是甘愿做坏子
 site_description: 计算机学习笔记
-site_author: Bushiganyuanzuohuaizi
+site_author: 不是甘愿做坏子
 site_url: https://bushiganyuanzuohuaizi.github.io/
 
 repo_name: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
 repo_url: https://github.com/Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2025 - 2026 Bushiganyuanzuohuaizi
+copyright: Copyright &copy; 2025 - 2026 不是甘愿做坏子
 
 theme:
   name: material
