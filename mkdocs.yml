@@ -1,13 +1,13 @@
-﻿site_name: DaranDeng
-site_description: Computer Science learning notes
-site_author: Daran Deng
-site_url: https://darandeng.github.io/
+site_name: Bushiganyuanzuohuaizi
+site_description: 计算机学习笔记
+site_author: Bushiganyuanzuohuaizi
+site_url: https://bushiganyuanzuohuaizi.github.io/
 
-repo_name: DaranDeng/DaranDeng.github.io
-repo_url: https://github.com/DaranDeng/DaranDeng.github.io
+repo_name: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
+repo_url: https://github.com/Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2025 - 2026 Daran Deng
+copyright: Copyright &copy; 2025 - 2026 Bushiganyuanzuohuaizi
 
 theme:
   name: material
@@ -32,10 +32,10 @@ theme:
     code: Roboto Mono
 
 nav:
-  - 棣栭〉 Home: index.md
-  - 鏁版嵁缁撴瀯涓庣畻娉?Data Structures and Algorithms:
+  - 首页 Home: index.md
+  - 数据结构与算法 Data Structures and Algorithms:
       - ds-algorithm/index.md
-      - C++ 鍩虹鍐呭绗旇: ds-algorithm/cpp-basics.md
+      - C++ 基础内容笔记: ds-algorithm/cpp-basics.md
       - Double Pointer: ds-algorithm/DoublePointer.md
       - DFS and BFS: ds-algorithm/bfs and dfs.md
       - 哈希法: ds-algorithm/哈希法.md
@@ -48,34 +48,34 @@ nav:
           - Algorithms & AI - Factorial & Exponential: ds-algorithm/Algorithms&AI/Factorial&Exponential.md
           - Algorithms & AI - UFS & IFS: ds-algorithm/Algorithms&AI/UFS&IFS.md
           - Algorithms & AI - Sort: ds-algorithm/Algorithms&AI/sortAlgo.md
-  - 鎿嶄綔绯荤粺 Operating System:
+  - 操作系统 Operating System:
       - os/index.md
-      - OS 鍩虹鐭ヨ瘑: os/NotesOfOS.md
+      - OS 基础知识: os/NotesOfOS.md
       - OS Lesson 1: os/lesson1.md
-      - 杩涚▼璋冨害 Scheduling: os/scheduling.md
-      - 鍩虹 API Basic API: os/BasicAPI.md
-      - 杩涚▼ Process: os/process.md
-      - 骞跺彂 Concurrency: os/concurrency.md
-      - 鍐呭瓨绠＄悊 Memory Management: os/memoryManagement.md
-      - 纾佺洏 I/O Disk I/O: os/diskIO.md
+      - 进程调度 Scheduling: os/scheduling.md
+      - 基础 API Basic API: os/BasicAPI.md
+      - 进程 Process: os/process.md
+      - 并发 Concurrency: os/concurrency.md
+      - 内存管理 Memory Management: os/memoryManagement.md
+      - 磁盘 I/O Disk I/O: os/diskIO.md
       - Harddisk&RAID: os/Harddisk&RAID.md
-  - 璁＄畻鏈虹粍鎴愬師鐞?Principles of Computer Composition:
+  - 计算机组成原理 Principles of Computer Composition:
       - computer-architecture/index.md
       - 前四周总结: computer-architecture/totalKnowledge.md
       - Pipelining SuperScalar: computer-architecture/Pipelining SuperScalar.md
       - tutorial01: computer-architecture/tutorial01.md
-      - 鎬荤嚎鏋舵瀯 bus architecture: computer-architecture/bus_architecture.md
+      - 总线架构 bus architecture: computer-architecture/bus_architecture.md
       - I/O 改进与控制方式: computer-architecture/IO_improvements.md
-      - GPGPU 涓?GPU 鏋舵瀯: computer-architecture/GPU.md
-      - 缂撳瓨 Cache: computer-architecture/cache.md
-  - 闈㈠悜瀵硅薄鍒嗘瀽涓庤璁?OOAD:
+      - GPGPU 与 GPU 架构: computer-architecture/GPU.md
+      - 缓存 Cache: computer-architecture/cache.md
+  - 面向对象分析与设计 OOAD:
       - ooad/index.md
       - Class Relationship: ooad/week4_classRelationship.md
       - UML Relationship & Component: ooad/week5_UMLrelationship&Component.md
       - Package: ooad/week6_package.md
       - SOLID, Layers & Sequence: ooad/week8_solid&layers&sequence.md
       - Threat Modeling: ooad/threatModeling.md
-      - 璁捐妯″紡绠€浠?Intro to Design Patterns: ooad/observer.md
+      - 设计模式简介 Intro to Design Patterns: ooad/observer.md
 
 not_in_nav: |
   README/index.md
@@ -121,7 +121,7 @@ extra:
   generator: true
   giscus:
     enabled: true
-    repo: EndeavourCHN/DaranDeng.github.io
+    repo: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
     repo_id: R_kgDOTFshBA
     category: General
     category_id: DIC_kwDOTFshBM4C_8BG
