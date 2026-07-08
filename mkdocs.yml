@@ -38,9 +38,9 @@ nav:
       - C++ 鍩虹鍐呭绗旇: ds-algorithm/cpp-basics.md
       - Double Pointer: ds-algorithm/DoublePointer.md
       - DFS and BFS: ds-algorithm/bfs and dfs.md
-      - 鍝堝笇娉? ds-algorithm/鍝堝笇娉?md
-      - 婊戝姩绐楀彛: ds-algorithm/婊戝姩绐楀彛.md
-      - 鍥炴函绠楁硶: ds-algorithm/鍥炴函绠楁硶.md
+      - 哈希法: ds-algorithm/哈希法.md
+      - 滑动窗口: ds-algorithm/滑动窗口.md
+      - 回溯算法: ds-algorithm/回溯算法.md
       - Algorithms & AI:
           - Algorithms & AI - Overview: ds-algorithm/Algorithms&AI/overview.md
           - Algorithms & AI - Intro: ds-algorithm/Algorithms&AI/algoIntro.md
@@ -61,11 +61,11 @@ nav:
       - Harddisk&RAID: os/Harddisk&RAID.md
   - 璁＄畻鏈虹粍鎴愬師鐞?Principles of Computer Composition:
       - computer-architecture/index.md
-      - 鍓嶅洓鍛ㄦ眹鎬? computer-architecture/totalKnowledge.md
+      - 前四周总结: computer-architecture/totalKnowledge.md
       - Pipelining SuperScalar: computer-architecture/Pipelining SuperScalar.md
       - tutorial01: computer-architecture/tutorial01.md
       - 鎬荤嚎鏋舵瀯 bus architecture: computer-architecture/bus_architecture.md
-      - I/O 鏀硅繘涓庢帶鍒舵柟寮? computer-architecture/IO_improvements.md
+      - I/O 改进与控制方式: computer-architecture/IO_improvements.md
       - GPGPU 涓?GPU 鏋舵瀯: computer-architecture/GPU.md
       - 缂撳瓨 Cache: computer-architecture/cache.md
   - 闈㈠悜瀵硅薄鍒嗘瀽涓庤璁?OOAD:
