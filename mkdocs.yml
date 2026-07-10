@@ -123,9 +123,9 @@ extra:
   giscus:
     enabled: true
     repo: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
-    repo_id: R_kgDOTFshBA
+    repo_id: R_kgDOP6Cb6Q
     category: General
-    category_id: DIC_kwDOTFshBM4C_8BG
+    category_id: DIC_kwDOP6Cb6c4CwF_K
     mapping: pathname
     strict: "0"
     reactions_enabled: "1"
