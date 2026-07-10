@@ -217,3 +217,24 @@
 - 想改网站，用 `maintain-site-experience`
 - 想查风险，用 `review-site-release`
 - 懒得自己判断，就用 `orchestrate-site-workflow`
+
+## `review-site-release` 发布门禁补充
+
+当你想让 `review-site-release` 更像一个真正的发布检查专家时，默认按下面这些规则检查：
+
+- `mkdocs.yml` 能被解析，`nav` 里的文件都真实存在。
+- `mkdocs build --strict` 必须通过。
+- 站内 Markdown 链接、图片和附件路径都要在 Linux runner 下可解析。
+- 删除或重命名文档后，相关引用必须一起修正。
+- 新增 MkDocs 插件时，`requirements.txt` 里也必须声明。
+- 只保留一条 Pages 部署链路，避免 Jekyll 和 MkDocs 并行冲突。
+
+常用触发语可以直接说：
+
+- `检查这次发布有没有问题`
+- `帮我看这次 MkDocs 部署会不会失败`
+- `先按发布门禁检查一下仓库`
+- `检查 workflow 和 mkdocs.yml 有没有风险`
+- `只检查，不改正文`
+- `只看部署风险`
+- `只看 mkdocs.yml、链接和 workflow`

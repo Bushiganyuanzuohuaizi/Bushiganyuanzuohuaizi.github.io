@@ -57,6 +57,7 @@ nav:
       - 进程 Process: os/process.md
       - 并发 Concurrency: os/concurrency.md
       - 内存管理 Memory Management: os/memoryManagement.md
+      - TLB: os/TLB.md
       - 磁盘 I/O Disk I/O: os/diskIO.md
       - Harddisk&RAID: os/Harddisk&RAID.md
   - 计算机组成原理 Principles of Computer Composition:
