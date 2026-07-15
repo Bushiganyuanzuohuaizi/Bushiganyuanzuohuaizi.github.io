@@ -21,6 +21,7 @@ hide:
       <span>40+ 篇已整理笔记</span>
       <span>覆盖四门核心基础课</span>
       <span>持续更新中</span>
+      <span class="landing-stat">总访问量 <strong id="site-total-views">加载中</strong></span>
     </div>
   </section>
 

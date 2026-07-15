@@ -121,6 +121,8 @@ extra_javascript:
 
 extra:
   generator: true
+  # Replace with the site code from your GoatCounter URL, e.g. "abc123".
+  goatcounter_code: "https://邓达然.goatcounter.com"
   giscus:
     enabled: true
     repo: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
