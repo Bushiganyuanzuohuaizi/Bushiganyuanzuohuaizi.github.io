@@ -15,7 +15,27 @@
     return;
   }
 
-  const endpoint = `https://${code}.goatcounter.com`;
+  const getEndpoint = (value) => {
+    const trimmed = String(value).trim().replace(/\/+$/, "");
+    if (!trimmed) {
+      return "";
+    }
+
+    try {
+      const url = trimmed.includes("://")
+        ? new URL(trimmed)
+        : new URL(`https://${trimmed}`);
+      return url.origin;
+    } catch {
+      return `https://${trimmed}.goatcounter.com`;
+    }
+  };
+
+  const endpoint = getEndpoint(code);
+  if (!endpoint) {
+    return;
+  }
+
   const script = document.createElement("script");
   script.src = "//gc.zgo.at/count.v5.js";
   script.async = true;
