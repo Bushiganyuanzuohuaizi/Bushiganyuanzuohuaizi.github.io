@@ -7,7 +7,7 @@ hide:
 
 <div class="landing-page">
   <section class="landing-hero">
-    <div class="landing-eyebrow">Daran Deng's Knowledge Garden</div>
+    <div class="landing-eyebrow">Lao Deng's Truancy Log</div>
     <h1>把计算机学习过程，整理成一座可以慢慢走进去的知识网站。</h1>
     <p class="landing-lead">
       这里收集我对数据结构、操作系统、计算机组成原理和 OOAD 的长期学习笔记。

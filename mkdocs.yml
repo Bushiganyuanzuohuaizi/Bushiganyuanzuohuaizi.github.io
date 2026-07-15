@@ -1,13 +1,13 @@
-site_name: 牢邓的翘课日记
-site_description: 从计算机科学到社会科学再到哲学的人生百科，一个无名的中南学子的四年
-site_author: 牢邓的翘课日记
+site_name: Lao Deng's Truancy Log
+site_description: A structured knowledge site for computer science notes, study maps, and long-term learning records.
+site_author: Lao Deng's Truancy Log
 site_url: https://bushiganyuanzuohuaizi.github.io/
 
 repo_name: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
 repo_url: https://github.com/Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2025 - 2026 牢邓的翘课日记
+copyright: Copyright &copy; 2025 - 2026 Lao Deng's Truancy Log
 
 theme:
   name: material
@@ -16,6 +16,7 @@ theme:
   features:
     - header.autohide
     - navigation.indexes
+    - navigation.tabs
     - navigation.tracking
     - navigation.top
     - toc.follow
@@ -25,15 +26,15 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: blue
-      accent: light blue
+      primary: black
+      accent: brown
   font:
-    text: Roboto Slab
-    code: Roboto Mono
+    text: false
+    code: false
 
 nav:
-  - 首页 Home: index.md
-  - 数据结构与算法 Data Structures and Algorithms:
+  - Home: index.md
+  - Algorithms:
       - ds-algorithm/index.md
       - C++ 基础内容笔记: ds-algorithm/cpp-basics.md
       - Double Pointer: ds-algorithm/DoublePointer.md
@@ -48,7 +49,7 @@ nav:
           - Algorithms & AI - Factorial & Exponential: ds-algorithm/Algorithms&AI/Factorial&Exponential.md
           - Algorithms & AI - UFS & IFS: ds-algorithm/Algorithms&AI/UFS&IFS.md
           - Algorithms & AI - Sort: ds-algorithm/Algorithms&AI/sortAlgo.md
-  - 操作系统 Operating System:
+  - Systems:
       - os/index.md
       - OS 基础知识: os/NotesOfOS.md
       - OS Lesson 1: os/lesson1.md
@@ -60,7 +61,7 @@ nav:
       - TLB: os/TLB.md
       - 磁盘 I/O Disk I/O: os/diskIO.md
       - Harddisk&RAID: os/Harddisk&RAID.md
-  - 计算机组成原理 Principles of Computer Composition:
+  - Architecture:
       - computer-architecture/index.md
       - 前四周总结: computer-architecture/totalKnowledge.md
       - Pipelining SuperScalar: computer-architecture/Pipelining SuperScalar.md
@@ -69,7 +70,7 @@ nav:
       - I/O 改进与控制方式: computer-architecture/IO_improvements.md
       - GPGPU 与 GPU 架构: computer-architecture/GPU.md
       - 缓存 Cache: computer-architecture/cache.md
-  - 面向对象分析与设计 OOAD:
+  - Design:
       - ooad/index.md
       - Class Relationship: ooad/week4_classRelationship.md
       - UML Relationship & Component: ooad/week5_UMLrelationship&Component.md
