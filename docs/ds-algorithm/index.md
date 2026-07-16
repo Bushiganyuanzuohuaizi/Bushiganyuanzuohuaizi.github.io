@@ -1,3 +1,7 @@
+---
+title: Algorithms
+---
+
 # Data Structures and Algorithms
 
 数据结构与算法笔记，包含基础题型、经典算法、复杂度分析，以及配套代码示例。
@@ -19,6 +23,12 @@
 - [Factorial and Exponential](Algorithms&AI/Factorial&Exponential.md)
 - [Sort Algorithms](Algorithms&AI/sortAlgo.md)
 - [UFS and IFS](Algorithms&AI/UFS&IFS.md)
+
+## Start Here
+
+- 从 `C++ Basics` 和 `Double Pointer` 开始，适合先热身。
+- 然后进入 `BFS and DFS`、`Backtracking`、`Sliding Window`。
+- 如果你在做专题整理，再看 `Algorithms and AI` 这一组。
 
 ## Code Examples
 
