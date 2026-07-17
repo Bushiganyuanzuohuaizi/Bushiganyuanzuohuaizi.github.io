@@ -121,9 +121,6 @@ extra_javascript:
 
 extra:
   generator: true
-  # Supports a site code like "abc123", a host like "abc123.goatcounter.com",
-  # or a full URL like "https://abc123.goatcounter.com".
-  goatcounter_code: "https://bushiganyuanzuohuaizi.goatcounter.com"
   giscus:
     enabled: true
     repo: Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io

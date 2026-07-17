@@ -165,34 +165,6 @@ button {
   line-height: 1.12;
 }
 
-.page-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.8rem;
-  margin: -0.3rem 0 2rem;
-}
-
-.page-stats__item {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.55rem;
-  padding: 0.55rem 0.85rem;
-  border: 1px solid var(--site-line);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.42);
-  color: var(--site-muted);
-  font-size: 0.82rem;
-}
-
-.page-stats__label {
-  letter-spacing: 0.04em;
-}
-
-.page-stats__value {
-  color: var(--site-ink);
-  font-variant-numeric: tabular-nums;
-}
-
 .md-typeset h2 {
   border-bottom: 1px solid var(--site-line);
   padding-bottom: 0.35rem;
@@ -445,11 +417,6 @@ button {
   margin-top: 2rem;
   color: var(--site-muted);
   font-size: 0.92rem;
-}
-
-.landing-stat strong {
-  color: var(--site-ink);
-  font-variant-numeric: tabular-nums;
 }
 
 .landing-meta span::before {

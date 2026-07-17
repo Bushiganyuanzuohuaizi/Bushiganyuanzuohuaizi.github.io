@@ -16,12 +16,12 @@ hide:
     <div class="landing-actions">
       <a class="landing-button landing-button--primary" href="#study-map">开始阅读</a>
       <a class="landing-button" href="#featured-notes">精选内容</a>
+      <a class="landing-button" href="https://github.com/Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io">访问仓库</a>
     </div>
     <div class="landing-meta">
       <span>40+ 篇已整理笔记</span>
       <span>覆盖四门核心基础课</span>
       <span>持续更新中</span>
-      <span class="landing-stat">总访问量 <strong id="site-total-views">加载中</strong></span>
     </div>
   </section>
 
@@ -115,6 +115,7 @@ hide:
       </div>
       <div class="landing-actions landing-actions--stacked">
         <a class="landing-button landing-button--primary" href="ds-algorithm/">进入学习路线</a>
+        <a class="landing-button" href="https://github.com/Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io">访问仓库</a>
         <a class="landing-button" href="README/CONTRIBUTING/">查看贡献说明</a>
       </div>
     </div>
