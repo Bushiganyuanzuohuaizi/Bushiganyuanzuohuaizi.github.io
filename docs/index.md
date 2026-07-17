@@ -22,6 +22,7 @@ hide:
       <span>40+ 篇已整理笔记</span>
       <span>覆盖四门核心基础课</span>
       <span>持续更新中</span>
+      <span>给我个星标吧家人们</span>
     </div>
   </section>
 
