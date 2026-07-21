@@ -79,6 +79,9 @@ nav:
       - Threat Modeling: ooad/threatModeling.md
       - 设计模式简介 Intro to Design Patterns: ooad/observer.md
 
+  - Elsewhere:
+      - elsewhere/index.md
+
 not_in_nav: |
   README/index.md
   README/CONTRIBUTING.md

@@ -460,6 +460,58 @@ button {
   backdrop-filter: blur(16px);
 }
 
+.embedded-site-page {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.embedded-site-page__intro,
+.embedded-site {
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius);
+  background: var(--site-panel);
+  box-shadow: var(--site-shadow);
+  backdrop-filter: blur(16px);
+}
+
+.embedded-site-page__intro {
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.embedded-site-page__eyebrow {
+  margin: 0 0 0.8rem;
+  color: var(--site-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.embedded-site-page__intro h2 {
+  margin-top: 0;
+  border-bottom: 0;
+}
+
+.embedded-site-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.embedded-site {
+  overflow: hidden;
+  min-height: 78vh;
+}
+
+.embedded-site__frame {
+  display: block;
+  width: 100%;
+  min-height: 78vh;
+  border: 0;
+  background: #fff;
+}
+
 .landing-card {
   display: block;
   padding: 1.8rem;
@@ -611,6 +663,19 @@ body[data-page="home"] .md-grid {
   .landing-grid,
   .landing-feature-list,
   .landing-cta {
+  .landing-cta,
+  .embedded-site-page {
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+
+  .landing-cta {
+    display: block;
+  }
+
+  .embedded-site-page__actions .landing-button {
+    width: 100%;
+  }
     grid-template-columns: 1fr;
     display: grid;
   }

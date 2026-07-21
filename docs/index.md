@@ -17,6 +17,7 @@ hide:
       <a class="landing-button landing-button--primary" href="#study-map">开始阅读</a>
       <a class="landing-button" href="#featured-notes">精选内容</a>
       <a class="landing-button" href="https://github.com/Bushiganyuanzuohuaizi/Bushiganyuanzuohuaizi.github.io">访问仓库</a>
+      <a class="landing-button" href="elsewhere/">站外联动</a>
     </div>
     <div class="landing-meta">
       <span>40+ 篇已整理笔记</span>
